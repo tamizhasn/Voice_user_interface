@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Tintinlogo.png</file>
+        <file>../listen.gif</file>
+        <file>../vui bird.jpg</file>
+        <file>../VUI Logo.png</file>
+        <file>../speaking.gif</file>
+        <file>../loading.gif</file>
+        <file>../Worldmap FUI.gif</file>
+        <file>../Letter P with phoenix concept logo.png</file>
+        <file>C:/Users/tamil/Downloads/Telegram-Logo-300x300.png</file>
+    </qresource>
+</RCC>
