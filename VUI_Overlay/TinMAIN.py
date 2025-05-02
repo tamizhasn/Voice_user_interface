@@ -187,7 +187,7 @@ class TinMainClass(QThread):
                         moveTo(1800,15)
                         leftClick()
 
-                    elif 'close window' in self.query :
+                    elif 'close window' in self.query or 'close' in self.query :
                         moveTo(1900,15)
                         leftClick()
 
@@ -274,15 +274,15 @@ class Ui_jarvis(QMainWindow):
         self.oldPosition = event.globalPos()
 
     def runallgif(self):
-        self.JarvisUI.listentingmovie=QtGui.QMovie("D:/Ai Generator/RESOURCES/listen.gif")
+        self.JarvisUI.listentingmovie=QtGui.QMovie("./RESOURCES/listen.gif")
         self.JarvisUI.listenting.setMovie(self.JarvisUI.listentingmovie)
         self.JarvisUI.listentingmovie.start()
 
-        self.JarvisUI.loadingmovie=QtGui.QMovie("D:/Ai Generator/RESOURCES/loading.gif")
+        self.JarvisUI.loadingmovie=QtGui.QMovie("./RESOURCES/loading.gif")
         self.JarvisUI.loading.setMovie(self.JarvisUI.loadingmovie)
         self.JarvisUI.loadingmovie.start()
 
-        self.JarvisUI.speakingmovie=QtGui.QMovie("D:/Ai Generator/RESOURCES/speaking.gif")
+        self.JarvisUI.speakingmovie=QtGui.QMovie("./RESOURCES/speaking.gif")
         self.JarvisUI.speaking.setMovie(self.JarvisUI.speakingmovie)
         self.JarvisUI.speakingmovie.start()
 
